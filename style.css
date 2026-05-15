@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #475ba6;
+    font-family: sans-serif;
+    outline: none;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    background: #ecf0f3;
+    padding: 15px;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                -5px -5px 12px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: repeat(4, 68px);
+    grid-gap: 10px;
+    border-radius: 20px;
+}
+
+input#outputscreen {
+    grid-column: span 4;
+    height: 70px;
+    width: 260px;
+    background: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff,
+                inset 5px 5px 12px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 30px;
+    color: rgba(70, 70, 70, 1);
+    font-size: 50px;
+    text-align: end;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+button {
+    height: 48px;
+    width: 48px;
+    border: none;
+    background: #ecf0f3;
+    box-shadow: -5px -5px 12px #ffffff,
+                5px 5px 12px rgba(0, 0, 0, 0.16);
+    border-radius: 50%;
+    margin: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:active {
+    box-shadow: inset -5px -5px 12px #ffffff,
+                inset 5px 5px 12px rgba(0, 0, 0, 0.16);
+}
+
+.equal {
+    width: 140px;
+    border-radius: 40px;
+    background-color:orange;
+    box-shadow: -5px -5px 12px #ffffff,
+                5px 5px 12px rgba(0, 0, 0, 0.16);
+    grid-column: span 2;
+
+}
+.yoqqilish{
+    background-color: orange;
+}
+    .ochirish{
+        background-color: orange;
+    }
+    .foiz{
+        background-color: orange;
+
+    }
+    .bolish{
+        background-color: orange;
+
+    }
+    .copaytirish{
+        background-color: orange;
+
+    }
+    .minus{
+        background-color: orange;
+
+    }
+    .pilus{
+        background-color: orange;
+    }
